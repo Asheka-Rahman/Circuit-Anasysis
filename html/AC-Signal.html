@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circuit Analysis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Circuit Analysis</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Lectures
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="Units.html">Units and Scientific Notation</a></li>
+                                <li><a class="dropdown-item" href="Voltage-Current-Resistance.html">Voltage, Current and
+                                        Resistance</a></li>
+                                <li><a class="dropdown-item" href="Ohms-Law.html">Ohm's Law</a></li>
+                                <li><a class="dropdown-item" href="Power-Energy.html">Power and Energy</a></li>
+                                <li><a class="dropdown-item" href="Series-Circuits.html">Series Circuits</a></li>
+                                <li><a class="dropdown-item" href="Parallel-Circuits.html">Parallel Circuits</a></li>
+                                <li><a class="dropdown-item" href="Series-Parallel- Circuits.html">Series-Parallel
+                                        Circuits</a></li>
+                                <li><a class="dropdown-item" href="Superposition.html">Superposition Theorem</a></li>
+                                <li><a class="dropdown-item" href="Thevenins-Theorem.html">Thevenin's Theorem</a></li>
+                                <li><a class="dropdown-item" href="Wheatstone-Bridge.html">Wheatstone Bridge Theorem</a>
+                                </li>
+
+                                <li><a class="dropdown-item" href="Capacitors.html">Capacitors in DC</a></li>
+                                <li><a class="dropdown-item" href="Magnetism-Electromagnetism.html">Magnetism and
+                                        Electromagnetism</a></li>
+                                <li><a class="dropdown-item" href="Inductors.html">Inductors in DC</a></li>
+                                <li><a class="dropdown-item" href="AC-Signal.html">AC signal</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Labs
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Resistor Color Code</a></li>
+                                <li><a class="dropdown-item" href="#">Voltage, Current and Resistance</a></li>
+                                <li><a class="dropdown-item" href="#">Ohm's Law</a></li>
+                                <li><a class="dropdown-item" href="#">Series DC Circuits</a></li>
+                                <li><a class="dropdown-item" href="#">Parallel DC Circuits</a></li>
+                                <li><a class="dropdown-item" href="#">PSeries-Parallel DC Circuits</a></li>
+                                <li><a class="dropdown-item" href="#">Ladders and Bridges</a></li>
+                                <li><a class="dropdown-item" href="#">Superposition Theorem</a></li>
+                                <li><a class="dropdown-item" href="#">Thévenin’s Theorem</a></li>
+                                <li><a class="dropdown-item" href="#">Mesh Analysis</a></li>
+                                <li><a class="dropdown-item" href="#">Nodal Analysis</a></li>
+                                <li><a class="dropdown-item" href="#">Capacitors and Inductors</a></li>
+
+
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Video lectures -->
+    <section class="container" id="Units">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lp0W2uOgVqo" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div class="container my-4">
+            <h1>Quiz 2: Voltage, Current and Resistance</h1>
+        </div>
+    </section>
+    <!-- quiz section -->
+    <div class="quiz-container">
+        <div id="quiz">
+
+        </div>
+    </div>
+
+    <!-- buttons section -->
+    <button class="btn btn-secondary" id="previous">Previous Question</button>
+    <button class="btn btn-secondary" id="next">Next Question</button>
+    <button class="btn btn-secondary" id="submit">Submit Quiz</button>
+
+    <!-- results section -->
+    <div id="results"></div>
+    <!-- javascripts -->
+    <script src="../js/AC-Signal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
